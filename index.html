@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head> <!-- Nell'head ho indicato a quale file.css dovesse essere collegato questo file.html, ho aggiunto il link per un google font ed ho indicato il nome della tab nel browser -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <title>Coding Challange</title>
+  </head>
+
+  <body> <!--Nel body ho inserito le varie sezioni della pagina web, dividendole con tag semantici per il facile riconoscimento-->
+    <div class="container">
+
+      <header> <!--Intestazione di pagina-->
+        <section class="site-head">
+          <img src="logo.png" style="width:220px;height:100px" class="Logo">
+          <h1>Taking Booleaners from A to B</h1>
+        </section>
+      </header>
+
+      <nav> <!--Serie di bottoni utili alla navigazione dell'utente-->
+        <div class="button-area">
+          <input type="submit" name="Prenota" value="Prenota">
+          <input type="submit" name="submit" value="Termina Prenotazione">
+          <input type="submit" name="Luci" value="Accendi Luci">
+        </div>
+      </nav>
+
+      <main>
+
+        <form class="Dati da inviare al backend" action="https://URLdidestinazione.com/scelta_monopattino" method="post"> <!--Ho messo un tag-form per rendere i dati selezionabili dall'utente effettivamente inviabili ad un backend (forfettario in questo caso)-->
+
+          <section>
+            <div class="monopattino">
+              <input type="checkbox" name="Select" value="first-option">
+              <span class="subject">Monopattino Gino22</span>
+            </div>
+            <div class="description">
+              <span class="distance"> <b>&RightTeeArrow;</b> Via Guadalametri - a 220 metri da te</span>
+              <p>Stato carica:</p>
+              <p id="charge-indicator1"></p>
+            </div>
+          </section>
+
+          <section>
+            <div class="monopattino">
+              <input type="checkbox" name="Select" value="second-option">
+              <span class="subject">Monopattino Mike24</span>
+            </div>
+            <div class="description">
+              <span class="distance"> <b>&RightTeeArrow;</b> Via Ricciardoni - a 420 metri da te</span>
+              <p>Stato carica:</p>
+              <p id="charge-indicator2"></p>
+            </div>
+          </section>
+
+          <section>
+            <div class="monopattino">
+              <input type="checkbox" name="Select" value="third-option">
+              <span class="subject">Monopattino Fede154</span>
+            </div>
+            <div class="description">
+              <span class="distance"> <b>&RightTeeArrow;</b> Via Mentarini - a 490 metri da te</span>
+              <p>Stato carica:</p>
+              <p id="charge-indicator3"></p>
+            </div>
+          </section>
+
+        </form>
+
+      </main>
+
+    </div>
+
+  </body>
+
+</html>

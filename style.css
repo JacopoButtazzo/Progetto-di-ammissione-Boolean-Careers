@@ -1,0 +1,89 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  margin-top: 70px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 80px;
+  padding: 40px;
+}
+
+nav, main {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+main {
+  font-family: 'DM Sans', sans-serif; /* ho indicato anche un font che sia "Web safe" in modo che se l'utente non possiede il "Google font" può visualizzare comunque la pagina */
+  color: white;
+}
+
+section.site-head {
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+  border-left: 50px;
+  border-right: 50px;
+  padding-top: 50px;
+}
+
+section.site-head >h1 {
+  margin: auto;
+  color: #00FF00;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.button-area {
+  background-color:#00FF00;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.subject {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+section {
+  margin-top: 30px;
+}
+
+p {
+  margin-top: 2px;
+}
+
+#charge-indicator1 {
+  color: #E5BE01;
+  background-color: #E5BE01;
+  margin-top: -15px;
+  margin-right: 600px;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+}
+
+#charge-indicator2 {
+  color: #228B22;
+  background-color: #228B22;
+  margin-top: -15px;
+  margin-right: 400px;
+  border-radius: 5px;
+  width: 500px;
+  height: 30px;
+}
+
+#charge-indicator3 {
+  color: #C41E3A;
+  background-color: #C41E3A;
+  margin-top: -15px;
+  margin-right: 800px;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
